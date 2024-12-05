@@ -1,0 +1,24 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 300 100"
+  width="300"
+  height="100"
+  style="background: transparent"
+>
+  <!-- Fondo del logo -->
+  <rect height="100" width="50" fill="transparent" />
+  
+  <!-- Letras iniciales (TC) -->
+  <text
+    x="20"
+    y="70"
+    font-family="Montserrat, sans-serif"
+    font-weight="bold"
+    font-size="60"
+    fill="#fbbf24"
+  >
+    TC
+  </text>
+  
+</svg>
