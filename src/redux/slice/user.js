@@ -10,7 +10,7 @@ export const userSlice = createSlice({
   ? JSON.parse(localStorage.getItem(UserKey)) 
   :{
     id: 0,
-    color:"light",
+    mode:"light",
 } ,
   reducers: {
     createUser: (state, action) => {
@@ -26,7 +26,7 @@ export const userSlice = createSlice({
       clearLocalStorage(UserKey);
       return {
         id: 0,
-        color:"light",
+        mode:"light",
     };
     }
 

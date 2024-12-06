@@ -4,7 +4,8 @@ import store from './redux/store'
 import { BrowserRouter, Route } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import RouterWithNotFound from './components/RouterWithNotFound'
-import MainMenubar from './components/MainMenuBar.jsx'
+import MainMenubar from './components/MainMenu.jsx'
+import Sections from './pages/Sections.jsx'
 
 
 const MainSection = lazy(() => import('./pages/MainSection/MainSection.jsx'));
@@ -22,11 +23,9 @@ function App() {
    <Suspense fallback={<>Cargando...</>}>
     <Provider store={store}>
       <BrowserRouter>
-        {/* <MainMenubar> */}
-          <RouterWithNotFound>
-            <Route path="/" element={<MainSection/>} />
-          </RouterWithNotFound>
-        {/* </MainMenubar> */}
+        <RouterWithNotFound>
+          <Route path="/" element={<Sections/>} />
+        </RouterWithNotFound>
       </BrowserRouter>
     </Provider>
    </Suspense>
