@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.p-dropdown.p-component .p-dropdown-label {
+  color: #D4AF37 !important;
+}

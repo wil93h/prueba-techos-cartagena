@@ -6,7 +6,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="rounded-lg p-8 w-4/6" style={{ backdropFilter: "blur(2px)" }}>
+    <div className="rounded-lg p-8 w-11/12 sm:w-4/6" style={{ backdropFilter: "blur(2px)" }}>
       <div className="container mx-auto px-6 py-16 text-center bg-opacity-50 bg-black rounded-lg">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-white dark:text-yellow-300 mb-6">
           {t("about_title")}

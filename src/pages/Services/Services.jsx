@@ -8,7 +8,7 @@ const Services = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="py-20 bg-gradient-to-r from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 h-full">
+    <div className="py-20 bg-gradient-to-r from-slate-200 to-gold-light dark:from-gray-500 dark:to-gray-800 h-screen">
     <div className="container mx-auto text-center px-6">
       <h2 className="text-4xl font-extrabold text-gray-900 dark:text-yellow-300 mb-10">
         {t('services_title')}

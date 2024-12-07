@@ -23,6 +23,7 @@ const LanguageSelector = () => {
         optionLabel="label"
         optionValue="value"
         className="p-mr-2 bg-transparent border-none text-white"
+        style={{ color: 'yellow' }}
         valueTemplate={(selectedOption) => (
           <div style={{ display: "flex", alignItems: "center" }}>
             <TbWorld style={{ marginRight: "8px",fontSize: "22px" }}  />

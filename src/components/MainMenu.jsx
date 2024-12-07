@@ -104,7 +104,7 @@ const MainMenu = ({ children }) => {
     <div className="h-screen w-full">
       {/* Menubar */}
       <nav className={`fixed top-0 left-0 w-full rounded-md  shadow-md z-50 flex items-center justify-between p-4 transition-all duration-300 
-        ${watch("scrolling") ? 'bg-transparent text-white' : 'bg-gold-light text-gray-700 shadow-lg dark:bg-gray-700'}`}
+        ${watch("scrolling") ? 'bg-transparent text-white' : 'bg-slate-200 text-gray-700 shadow-lg dark:bg-gray-700'}`}
         style={{ backdropFilter: 'blur(5px)' }}
       >
       {logo}
