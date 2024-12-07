@@ -66,7 +66,7 @@ const Sections = () => {
         </div>
       </Element>
 
-      <Element data-section="contact" name="contact" id="contact" className="h-screen flex items-center justify-center bg-red-500 ">
+      <Element data-section="contact" name="contact" id="contact" className="h-auto min-h-screen flex items-center justify-center bg-green-600 ">
         <div ref={contactRef} className='w-full h-full'>
           {contactInView && (
             <Suspense fallback={<div>Loading Contact...</div>}>

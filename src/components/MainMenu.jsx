@@ -161,6 +161,19 @@ const MainMenu = ({ children }) => {
             {t("projects")}
           </Link>
         </li>
+        <li>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            onClick={() => setValue("activeSection","contact")}
+            className={`cursor-pointer font-bold text-lg ${
+              activeSection === "contact" ? "text-gold-dark" : "text-gold"
+            } hover:underline`}
+          >
+            {t("contact")}
+          </Link>
+        </li>
       </ul>
       <div className="flex flex-row gap-3 items-center">
       <MultiStateCheckbox

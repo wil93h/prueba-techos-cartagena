@@ -3,6 +3,7 @@
   "services" : "Servicios",
   "projects" : "Proyectos",
   "about" : "Acerca de",
+  "contact": "Contacto",
   "welcome_title": "Techos Cartagena",
   "welcome_subtitle": "Innovación y soluciones para un futuro sostenible",
   "welcome_text": "En Techos Cartagena, nos especializamos en ofrecer soluciones tecnológicas avanzadas que transforman espacios y elevan la calidad de vida. Nuestra pasión por la innovación y el compromiso con la sostenibilidad nos permite proporcionar productos y servicios que cumplen con los más altos estándares de eficiencia y diseño. Ya sea que busques mejorar la infraestructura de tu hogar o tu negocio, nosotros estamos aquí para hacer realidad tus proyectos más ambiciosos.",
@@ -54,5 +55,15 @@
   "contact_email_error": "El correo electrónico es requerido",
   "contact_email_invalid": "Por favor ingrese un correo electrónico válido",
   "contact_phone_error": "El teléfono es requerido",
-  "contact_message_error": "El mensaje es requerido"
+  "contact_message_error": "El mensaje es requerido",
+  "contact_title": "Contáctanos",
+  "contact_description": "En Techos Cartagena, nos especializamos en brindar soluciones de techado para hogares y empresas en toda la región. Contáctanos o visítanos en nuestra ubicación para saber más.",
+  "contact_address_title": "Dirección",
+  "contact_address": "Calle de la Marina #12, Centro Histórico, Cartagena, Colombia",
+  "contact_phone_title": "Teléfonos",
+  "contact_phone1": "+57 300 123 4567",
+  "contact_phone2": "+57 5 678 9012",
+  "contact_hours_title": "Horario de Atención",
+  "contact_hours_weekdays": "Lunes a Viernes: 8:00 AM - 5:00 PM",
+  "contact_hours_saturdays": "Sábados: 8:00 AM - 12:00 PM"
 }

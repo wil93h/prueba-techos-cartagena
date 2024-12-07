@@ -3,6 +3,7 @@
   "services": "Services",
   "projects": "Projects",
   "about": "About",
+  "contact": "Contact",
   "welcome_title": "Techos Cartagena",
   "welcome_subtitle": "Innovation and solutions for a sustainable future",
   "welcome_text": "At Techos Cartagena, we specialize in providing advanced technological solutions that transform spaces and enhance quality of life. Our passion for innovation and commitment to sustainability enables us to provide products and services that meet the highest standards of efficiency and design. Whether you're looking to improve your home's or business's infrastructure, we are here to bring your most ambitious projects to life.",
@@ -12,7 +13,6 @@
   "about_subtitle": "Committed to Excellence in Roofing",
   "about_description": "At Techos Cartagena, we have over 20 years of experience in the roofing industry. We offer a wide range of roofing solutions for homes, businesses, and industrial projects.",
   "see_projects": "See Our Projects",
-  "projects_title": "Projects",
   "projects_text": "Discover the most outstanding projects we've completed over the years. Each one reflects our commitment to quality, sustainability, and innovation. From residential solutions to large commercial works, our experience shows in the positive impact we make.",
   "services_title": "Our Roofs",
   "services_subtitle": "We offer a variety of roofing options to suit all needs. The more you invest, the more benefits you get!",
@@ -55,5 +55,15 @@
   "contact_email_error": "Email is required",
   "contact_email_invalid": "Please enter a valid email",
   "contact_phone_error": "Phone is required",
-  "contact_message_error": "Message is required"
+  "contact_message_error": "Message is required",
+  "contact_title": "Contact Us",
+  "contact_description": "At Techos Cartagena, we specialize in providing roofing solutions for homes and businesses across the region. Contact us or visit our location to learn more.",
+  "contact_address_title": "Address",
+  "contact_address": "12 Marina Street, Historic Center, Cartagena, Colombia",
+  "contact_phone_title": "Phone Numbers",
+  "contact_phone1": "+57 300 123 4567",
+  "contact_phone2": "+57 5 678 9012",
+  "contact_hours_title": "Opening Hours",
+  "contact_hours_weekdays": "Monday to Friday: 8:00 AM - 5:00 PM",
+  "contact_hours_saturdays": "Saturdays: 8:00 AM - 12:00 PM"
 }
